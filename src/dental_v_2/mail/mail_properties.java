@@ -22,7 +22,7 @@ public class mail_properties {
         properties.put("mail.smtp.port", "587");
 
         String myAccountEmail = "katya010198@gmail.com";
-        String password = "Geibcnbrkthfkthf";
+        
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override

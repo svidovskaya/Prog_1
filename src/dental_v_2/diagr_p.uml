@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="127.00000000000001" y="154.0">dental_v_2.view.Entry_form</node>
+    <node x="0.0" y="154.0">dental_v_2.view.Menu_form</node>
+    <node x="289.0" y="77.0">dental_v_2.db.DB_Entry</node>
+    <node x="123.49999999999997" y="241.0">dental_v_2.view.Root_2_form</node>
+    <node x="147.99999999999994" y="318.0">dental_v_2.Main</node>
+    <node x="278.5" y="0.0">dental_v_2.db.DBProcessor</node>
+    <node x="261.0" y="154.0">dental_v_2.controllers.Entry_Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dental_v_2.view.Root_2_form" target="dental_v_2.view.Menu_form">
+      <point x="-50.41666666666666" y="-13.5" />
+      <point x="133.58333333333331" y="221.0" />
+      <point x="26.75" y="221.0" />
+      <point x="-26.75" y="13.5" />
+    </edge>
+    <edge source="dental_v_2.view.Root_2_form" target="dental_v_2.view.Entry_form">
+      <point x="10.083333333333371" y="-13.5" />
+      <point x="194.08333333333334" y="201.0" />
+      <point x="212.5" y="201.0" />
+      <point x="28.5" y="13.5" />
+    </edge>
+    <edge source="dental_v_2.controllers.Entry_Controller" target="dental_v_2.db.DB_Entry">
+      <point x="-39.0" y="-13.5" />
+      <point x="300.0" y="129.0" />
+      <point x="314.0" y="129.0" />
+      <point x="-25.0" y="13.5" />
+    </edge>
+    <edge source="dental_v_2.db.DB_Entry" target="dental_v_2.db.DBProcessor">
+      <point x="25.0" y="-13.5" />
+      <point x="364.0" y="52.0" />
+      <point x="369.25" y="52.0" />
+      <point x="30.25" y="13.5" />
+    </edge>
+    <edge source="dental_v_2.Main" target="dental_v_2.view.Root_2_form">
+      <point x="18.00000000000003" y="-13.5" />
+      <point x="202.0" y="293.0" />
+      <point x="214.25" y="293.0" />
+      <point x="30.25000000000003" y="13.5" />
+    </edge>
+    <edge source="dental_v_2.view.Root_2_form" target="dental_v_2.controllers.Entry_Controller">
+      <point x="50.416666666666714" y="-13.5" />
+      <point x="234.41666666666669" y="221.0" />
+      <point x="378.0" y="221.0" />
+      <point x="39.0" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9000000000000001" x="491.0" y="179.99999999999994" />
+  <SelectedNodes>
+    <node>dental_v_2.view.Entry_form</node>
+    <node>dental_v_2.db.DBProcessor</node>
+    <node>dental_v_2.view.Menu_form</node>
+    <node>dental_v_2.controllers.Entry_Controller</node>
+    <node>dental_v_2.db.DB_Entry</node>
+    <node>dental_v_2.view.Root_2_form</node>
+    <node>dental_v_2.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
